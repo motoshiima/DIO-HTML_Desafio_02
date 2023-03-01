@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>  Criando meu primeiro site completo com HTML </title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="menu">
+                <!-- Aqui vai o seu menu -->
+                <ul>
+                    <li><a href="./home.html"> Home </a></li>
+                    <li><a href="./sobre.html"> Sobre </a></li>
+                    <li><a href="./horario.html"> Horario </a></li>
+                </ul>
+            </div>
+
+            <div class="main">
+                <div class="header">
+                    <a href="./home.html">
+                    <img src="./assets/header_contato_img.webp" alt="Imagem que mostra alguns de nossos servicos"></a>
+                    <!-- Aqui vai o seu header -->
+                </div>
+        
+                <div class="content">
+                    
+                    <!-- Aqui vai o seu conteúdo -->
+                    Para mais informacoes, entre em contato atraves do nosso numero: 11-99999-0000
+                    ou chama no Whats
+                    <a href="https://wa.me/<#>" target="_blank">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                      </a>
+                      
+                    <br>
+                    <br>
+                    
+                    <form action="">
+                        <fieldset>
+                            <legend> Contato </legend>
+                
+                            <label for="name"> Nome: </label>
+                            <br>
+                            <input type="text" name="name"
+                            placeholder="Digite seu nome completo"
+                            size="25" required><br><br>
+
+                            <label for="tel"> Telefone: </label>
+                            <br>
+                            <input type="tel" name="tel"
+                            placeholder="11 99999-9999"
+                            size="15" required><br><br>
+                
+                            <label for="email"> Email: </label>
+                            <br>
+                            <input type="email" name="email" 
+                            placeholder="email@dominio.com"
+                            size="25" required><br><br>
+                
+                            <label for="message"> Mensagem: </label>
+                            <br>
+                            <textarea name="message" id="message" cols="85" rows="10"
+                            placeholder="Deixe seu comentario" required></textarea><br><br>
+                
+                            <button type="submit"> Enviar </button>
+                            <button type="reset"> Limpar </button>
+                        </fieldset>
+                    </form><br><br>
+
+                    <p> <strong> Como chegar:  </strong> 
+                        Rua: <i>Street</i> Bairro: <i>Neighborhood</i> Cidade: <i>City</i>
+                    </p><br><br>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2982.440615470263!2d-73.80399044753273!3d40.716331991008204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2613bd777e619%3A0x52e9a3a75c1cbd86!2sHospital!5e0!3m2!1spt-BR!2sbr!4v1677627106464!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+        
+                <div class="footer">
+                    <!-- Aqui vai o seu rodapé -->
+                    <p> Obrigado por nos visitar.
+                        Siga nossa clinica nas redes sociais </p>
+
+                        <ul>   
+                        <li> 
+                            <a href="#" target="_blank"> Github
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </li>
+            
+                        <li> 
+                            <a href="#" target="_blank"> Instagram
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+            
+                        <li> 
+                            <a href="#" target="_blank"> LinkedIn
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
